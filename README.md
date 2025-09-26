@@ -10,7 +10,7 @@ Welcome! I am a Ph.D. physicist and data scientist with experience in machine le
 ## 💼 Featured Projects
 
 ### Financial News Analyzer
-[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/bataju44/financial-news-analyzer)
+[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/bataju44/financial-new-analyzer)
 - **Description:** Built a scalable NLP pipeline to batch-process financial news using multiple sentiment and NER models.  
 - **Key Achievements:**
   - Stored per-model sentiment scores and named entities using SQLAlchemy ORM.
@@ -20,7 +20,7 @@ Welcome! I am a Ph.D. physicist and data scientist with experience in machine le
 ---
 
 ### Credit Card Fraud Detection
-[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/bataju44/credit-card-fraud)
+[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/bataju44/cc-fraud-detection-model)
 - **Description:** End-to-end ML pipeline for detecting fraudulent credit card transactions.  
 - **Key Achievements:**
   - Tuned XGBoost model achieved 0.98 AUC-ROC on 285K highly imbalanced transactions.

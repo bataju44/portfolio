@@ -30,17 +30,15 @@ Welcome! I am a Ph.D. physicist and data scientist with experience in machine le
 ---
 
 ### Di-Higgs Multilepton Analysis (ATLAS)
-[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/bataju44/atlas-dihiggs-multilepton)
 - **Description:** Led multilepton analysis of Higgs boson pair production using LHC data.  
 - **Key Achievements:**
   - Engineered features for BDT and DNN models, evaluated via AUC/ROC.
   - Incorporated data-driven, theoretical, and detector-based uncertainties.
-  - Contributed to ATLAS internal notes and 2024 publication.
+  - Contributed to ATLAS internal notes and [2024 publication in JEP](https://arxiv.org/abs/2405.20040).
 
 ---
 
-### Electron Identification TAP (ATLAS)
-[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?logo=github)](https://github.com/bataju44/atlas-electron-tap)
+### Electron Identification Tag And Probe (ATLAS)
 - **Description:** Developed Tag-and-Probe software for electron efficiency measurements.  
 - **Key Achievements:**
   - Managed >150 pT-eta bins with systematic uncertainty integration.
@@ -61,6 +59,3 @@ Welcome! I am a Ph.D. physicist and data scientist with experience in machine le
 
 1. Browse the **featured projects** above.  
 2. Click the GitHub badges to view code, documentation, and instructions.  
-3. Clone or fork repositories for your own experiments:  
-```bash
-git clone https://github.com/bataju44/financial-news-analyzer.git

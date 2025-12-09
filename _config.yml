@@ -1,0 +1,66 @@
+# --- Site Settings ---
+title: "Susan Bataju"
+description: "Data Science, and Physics Research Portfolio"
+url: "https://bataju44.github.io"
+
+# --- Theme ---
+remote_theme: "mmistakes/minimal-mistakes@4.26.1"
+Markdown: kramdown
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# --- Author Profile ---
+author:
+  name: "Susan Bataju"
+  avatar: "/assets/images/profile.jpg" # optional
+  bio: "Ph.D. Physicist"
+  location: "United States"
+  github: bataju44
+  linkedin: susanbataju
+  email: "susanbatajoo@gmail.com"
+
+# --- Layout Defaults ---
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      show_date: false
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: single
+      toc: true
+      author_profile: false
+
+# --- Navigation ---
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+include:
+  - _pages
+
+# --- Social Sharing ---
+analytics: false
+
+use_theme_toggle: true
+
+sass:
+  style: compressed
+
+include:
+  - assets/css/custom.css

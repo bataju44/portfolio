@@ -5,7 +5,7 @@ author_profile: true
 classes: wide
 ---
 
-Welcome! I'm **Susan Bataju**, a Ph.D. physicist and data scientist specializing in **machine learning**, **NLP**, and **high-throughput data analysis**.
+Hi! I'm **Susan Bataju**, a Ph.D. physicist and aspiring data scientist specializing in **machine learning**, **rear-event detection**, and **high-throughput data analysis**.
 
 ---
 

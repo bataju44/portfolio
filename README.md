@@ -1,9 +1,9 @@
-# Susan Bataju – Data Science & NLP Portfolio
+# Susan Bataju Portfolio
 
 ![GitHub followers](https://img.shields.io/github/followers/bataju44?label=Follow&style=social)
 ![GitHub stars](https://img.shields.io/github/stars/bataju44?style=social)
 
-Hi! I am a Ph.D. in Physicist with over 4 years of hands-on experience building and validating machine learning systems for rare-event detection. Led development of ensemble pipelines (XGBoost, DNNs, BDTs), data analysis, and de- signed distributed processing workflows. Proficient in statistical analysis, model development/deployment, CI/CD automation, uncertainty quantification, and technical leadership across different functions.
+Hi! I am a Ph.D. in Physicist with over 4 years of hands-on experience building and validating machine learning systems for rare-event detection. Led development of ensemble pipelines (XGBoost, DNNs, BDTs), data analysis, and designed distributed processing workflows. Proficient in statistical analysis, model development/deployment, CI/CD automation, uncertainty quantification, and technical leadership across different functions.
 
 ### [Resume](susan_bataju_rh.pdf)
 
@@ -56,8 +56,3 @@ Hi! I am a Ph.D. in Physicist with over 4 years of hands-on experience building 
 - **GitHub:** [github.com/bataju44](https://github.com/bataju44)
 
 ---
-
-## ⚡ How to Use This Portfolio
-
-1. Browse the **featured projects** above.  
-2. Click the GitHub badges to view code, documentation, and instructions.  

@@ -3,7 +3,7 @@
 ![GitHub followers](https://img.shields.io/github/followers/bataju44?label=Follow&style=social)
 ![GitHub stars](https://img.shields.io/github/stars/bataju44?style=social)
 
-Welcome! I am a Ph.D. physicist and data scientist with experience in machine learning, natural language processing (NLP), and scalable data pipelines. This portfolio highlights selected projects that demonstrate technical expertise, problem-solving skills, and real-world impact.
+Hi! I am a Ph.D. physicist and data scientist with experience in machine learning, natural language processing (NLP), and scalable data pipelines. This portfolio highlights selected projects that demonstrate technical expertise, problem-solving skills, and real-world impact.
 
 ---
 

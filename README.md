@@ -3,7 +3,9 @@
 ![GitHub followers](https://img.shields.io/github/followers/bataju44?label=Follow&style=social)
 ![GitHub stars](https://img.shields.io/github/stars/bataju44?style=social)
 
-Welcome! I am a Ph.D. physicist and data scientist with experience in machine learning, natural language processing (NLP), and scalable data pipelines. This portfolio highlights selected projects that demonstrate technical expertise, problem-solving skills, and real-world impact.
+Hi! I am a Ph.D. in Physicist with over 4 years of hands-on experience building and validating machine learning systems for rare-event detection. Led development of ensemble pipelines (XGBoost, DNNs, BDTs), data analysis, and de- signed distributed processing workflows. Proficient in statistical analysis, model development/deployment, CI/CD automation, uncertainty quantification, and technical leadership across different functions.
+
+### [Resume](susan_bataju_rh.pdf)
 
 ---
 

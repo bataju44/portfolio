@@ -250,7 +250,6 @@
   <div class="nav-links">
     <a href="#about">About</a>
     <a href="#experience">Experience</a>
-    <a href="#projects">Projects</a>
     <a href="#publications">Research</a>
     <a href="#contact">Contact</a>
   </div>
@@ -432,54 +431,6 @@
     </div>
   </section>
 
-  <!-- PROJECTS -->
-  <section id="projects">
-    <div class="sec-header">
-      <h2>Projects</h2>
-      <span><a href="https://github.com/bataju44" target="_blank" style="color:var(--accent);text-decoration:none;letter-spacing:0.05em;">github.com/bataju44 ↗</a></span>
-    </div>
-    <div class="exp-list">
-
-      <div class="exp-item" onclick="this.classList.toggle('open')">
-        <div class="exp-header">
-          <div>
-            <div class="exp-role">Credit Card Fraud Detection</div>
-            <div class="exp-org">XGBoost · LightGBM · DNN · Optuna · Python</div>
-          </div>
-          <a href="https://github.com/bataju44/cc-fraud-detection-model" target="_blank" onclick="event.stopPropagation()" class="contact-link" style="font-size:10px;padding:6px 14px;white-space:nowrap;">View on GitHub ↗</a>
-        </div>
-        <div class="exp-bullets">
-          <div class="exp-bullet"><span>Built a complete ML pipeline for fraud detection on a highly imbalanced dataset (0.17% fraud rate), comparing <strong>XGBoost, LightGBM, and a DNN</strong> with advanced hyperparameter tuning via Optuna.</span></div>
-          <div class="exp-bullet"><span>XGBoost achieved the best balance: <strong>AUC-ROC 0.979, F1 0.759, Precision 0.837</strong> — demonstrating that F1 and AUC-PR matter far more than accuracy on skewed datasets.</span></div>
-          <div class="exp-bullet"><span>Rare-event detection at 0.17% prevalence mirrors the signal-vs-background problem I worked on at CERN — same statistical challenge, different domain.</span></div>
-        </div>
-        <div class="exp-tags">
-          <span class="exp-tag">XGBoost</span><span class="exp-tag">LightGBM</span><span class="exp-tag">PyTorch</span><span class="exp-tag">Optuna</span><span class="exp-tag">Class Imbalance</span>
-        </div>
-        <div class="exp-toggle">Details <span class="exp-toggle-arrow">↓</span></div>
-      </div>
-
-      <div class="exp-item" onclick="this.classList.toggle('open')">
-        <div class="exp-header">
-          <div>
-            <div class="exp-role">Financial News Sentiment Analyzer</div>
-            <div class="exp-org">HuggingFace Transformers · NER · SQLAlchemy · Python</div>
-          </div>
-          <a href="https://github.com/bataju44/financial-new-analyzer" target="_blank" onclick="event.stopPropagation()" class="contact-link" style="font-size:10px;padding:6px 14px;white-space:nowrap;">View on GitHub ↗</a>
-        </div>
-        <div class="exp-bullets">
-          <div class="exp-bullet"><span>Built an NLP pipeline that fetches financial news and runs <strong>multi-model sentiment analysis and Named Entity Recognition</strong> using HuggingFace Transformers — enabling systematic comparison across models.</span></div>
-          <div class="exp-bullet"><span>Modular architecture: separate fetcher, database (SQLAlchemy ORM), model comparison, and dashboard modules. Batch processing reduces inference time by ~60% vs. sequential.</span></div>
-        </div>
-        <div class="exp-tags">
-          <span class="exp-tag">NLP</span><span class="exp-tag">Transformers</span><span class="exp-tag">Sentiment Analysis</span><span class="exp-tag">NER</span><span class="exp-tag">SQLAlchemy</span>
-        </div>
-        <div class="exp-toggle">Details <span class="exp-toggle-arrow">↓</span></div>
-      </div>
-
-    </div>
-  </section>
-
   <!-- PUBLICATIONS -->
   <section id="publications">
     <div class="sec-header">
@@ -646,4 +597,14 @@ const intro = setInterval(() => {
   const toOpen = Math.floor(COLS * ROWS * 0.004);
   for (let i = 0; i < toOpen; i++) {
     const r = Math.floor(Math.random() * ROWS);
-    const c = Math.floor(Math.random() * 
+    const c = Math.floor(Math.random() * COLS);
+    if (grid[r][c] === 0 && Math.random() < targetP) grid[r][c] = 1;
+  }
+  fill();
+  p = targetP;
+  updateStatus();
+  if (introT >= 1) clearInterval(intro);
+}, 55);
+</script>
+</body>
+</html>
